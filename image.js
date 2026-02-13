@@ -199,12 +199,12 @@
   };
 
   // ---------- Persist inputs (auto-save) ----------
-  const KEY_DOMAIN = "runa_img_domain";
-  const KEY_BASE = "runa_img_base";
-  const KEY_EXT = "runa_img_ext";
+  const KEY_DOMAIN = "kepsu_img_domain";
+  const KEY_BASE = "kepsu_img_base";
+  const KEY_EXT = "kepsu_img_ext";
 
-  const KEY_LINK_DOMAIN = "runa_link_domain";
-  const KEY_LINK_TITLES = "runa_link_titles";
+  const KEY_LINK_DOMAIN = "kepsu_link_domain";
+  const KEY_LINK_TITLES = "kepsu_link_titles";
 
   const loadSaved = () => {
     const d = localStorage.getItem(KEY_DOMAIN);
